@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  border-top: 2px solid #9e9e9e; /* Lighter gray border */
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 10px; /* Increased padding for better spacing */
+  width: 80%;
+  font-size: 1.2em;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #673ab7; /* Dark purple */
+  padding: 15px; /* Slightly reduced padding */
+  display: inline-block;
+  border: none;
+  width: 20%;
+  cursor: pointer; /* Add pointer cursor on hover */
+  transition: background 0.3s ease; /* Smooth background transition */
+}
+
+.sendButton:hover {
+  background: #5e35b1; /* Darker shade of purple on hover */
+}

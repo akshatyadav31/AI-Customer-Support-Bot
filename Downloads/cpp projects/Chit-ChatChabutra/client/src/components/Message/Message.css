@@ -1,0 +1,57 @@
+/* messages.css */
+
+.messageContainer {
+  display: flex;
+  margin-top: 5px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.messageBox {
+  max-width: 80%;
+  padding: 10px 15px; /* Increase padding for better spacing */
+  border-radius: 20px;
+  word-wrap: break-word;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth effect */
+}
+
+.backgroundBlue {
+  background-color: #2979ff;
+  color: white; /* Set text color to white for better contrast */
+}
+
+.backgroundLight {
+  background-color: #f3f3f3;
+}
+
+.sentText {
+  margin: 0;
+  font-size: 12px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.colorWhite {
+  color: #ffffff;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.messageText {
+  margin: 0;
+  word-wrap: break-word;
+}
